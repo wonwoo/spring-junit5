@@ -26,5 +26,4 @@ class AnnotationHelloServiceTests {
   void constructorHello(@Autowired HelloService helloService) {
     assertEquals(this.helloService.hello(), "hello world");
   }
-
 }

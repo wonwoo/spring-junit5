@@ -16,7 +16,7 @@ class GeneralHelloServiceTests {
   private final HelloService helloService;
 
   @Autowired
-  GeneralHelloServiceTests(HelloService helloService) {
+  private GeneralHelloServiceTests(HelloService helloService) {
     this.helloService = helloService;
   }
 
