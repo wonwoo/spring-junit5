@@ -25,7 +25,7 @@ class GeneralHelloServiceTests {
     assertEquals(helloService.hello(), "hello world");
   }
   @Test
-  void constructorHello(@Autowired HelloService helloService) {
+  void constructorHello() {
     assertEquals(this.helloService.hello(), "hello world");
   }
 
